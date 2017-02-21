@@ -14,10 +14,13 @@
 
 ##### Moving onto a branch
 		git checkout <branch name>
-
+		
 ##### Deleting a branch
 		git branch -d <branch name>
 
+##### Renaming a branch
+  	git branch -m <new branch name>
+
+
 ##### Moving files while preserving git history
 		git mv <source> <destination>
- 
